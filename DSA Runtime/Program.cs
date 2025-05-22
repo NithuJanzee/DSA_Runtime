@@ -25,9 +25,14 @@ namespace DSA_Runtime
             //RomanToInt romanToInt = new RomanToInt();
             //Console.WriteLine(romanToInt.RomanToIntQ("LVIII"));
 
-            LongestCommenPrefix longestCommen = new LongestCommenPrefix();
-            string[] test = new string[] { "flower", "flow", "flight" };
-            Console.WriteLine(longestCommen.LongestCommonPrefix(test));
+            //LongestCommenPrefix longestCommen = new LongestCommenPrefix();
+            //string[] test = new string[] { "flower", "flow", "flight" };
+            //Console.WriteLine(longestCommen.LongestCommonPrefix(test));
+
+            A_Guy_WIth_a_Mental_Problem a_Guy_WIth_A_Mental_Problem = new A_Guy_WIth_a_Mental_Problem();
+            int[] input1 = new int[] { 2, 1, 2 };
+            int[] input2 = new int[] { 3, 2, 1 };
+            Console.WriteLine(a_Guy_WIth_A_Mental_Problem.FindMinimumTIme(input1, input2));
 
 
 
