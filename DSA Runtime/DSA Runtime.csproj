@@ -48,6 +48,7 @@
     <Compile Include="Easy\Palindrome Number.cs" />
     <Compile Include="Easy\RomanToInt.cs" />
     <Compile Include="Easy\TwoSum.cs" />
+    <Compile Include="Easy\Valid_Parentheses.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

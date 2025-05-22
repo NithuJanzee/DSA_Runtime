@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Diagnostics;
-using DSA_Runtime.Easy;
 
 namespace DSA_Runtime
 {
@@ -29,10 +28,10 @@ namespace DSA_Runtime
             //string[] test = new string[] { "flower", "flow", "flight" };
             //Console.WriteLine(longestCommen.LongestCommonPrefix(test));
 
-            A_Guy_WIth_a_Mental_Problem a_Guy_WIth_A_Mental_Problem = new A_Guy_WIth_a_Mental_Problem();
-            int[] input1 = new int[] { 2, 1, 2 };
-            int[] input2 = new int[] { 3, 2, 1 };
-            Console.WriteLine(a_Guy_WIth_A_Mental_Problem.FindMinimumTIme(input1, input2));
+            //A_Guy_WIth_a_Mental_Problem a_Guy_WIth_A_Mental_Problem = new A_Guy_WIth_a_Mental_Problem();
+            //int[] input1 = new int[] { 2, 1, 2 };
+            //int[] input2 = new int[] { 3, 2, 1 };
+            //Console.WriteLine(a_Guy_WIth_A_Mental_Problem.FindMinimumTIme(input1, input2));
 
 
 
