@@ -46,6 +46,7 @@
     <Compile Include="Easy\A_Guy_WIth_a_Mental_Problem.cs" />
     <Compile Include="Easy\LongestCommenPrefix.cs" />
     <Compile Include="Easy\Palindrome Number.cs" />
+    <Compile Include="Easy\Remove_duplicate_from_sorted_array.cs" />
     <Compile Include="Easy\RomanToInt.cs" />
     <Compile Include="Easy\TwoSum.cs" />
     <Compile Include="Easy\Valid_Parentheses.cs" />

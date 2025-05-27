@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using DSA_Runtime.Easy;
 
 namespace DSA_Runtime
 {
@@ -33,6 +34,19 @@ namespace DSA_Runtime
             //int[] input2 = new int[] { 3, 2, 1 };
             //Console.WriteLine(a_Guy_WIth_A_Mental_Problem.FindMinimumTIme(input1, input2));
 
+
+
+            RemoveDuplicateFromSortedArray removeDuplicateFromSorted = new RemoveDuplicateFromSortedArray();
+            int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+
+            int k = removeDuplicateFromSorted.RemoveDuplicates(nums);
+
+            Console.WriteLine(k);
+            Console.Write("Modified array: ");
+            for (int i = 0; i < k; i++)
+            {
+                Console.Write(nums[i] + " ");
+            }
 
 
             stopwatch.Stop();
